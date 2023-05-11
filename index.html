@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<title>As I Lay Dying</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+
+</head>
+<body>
+
+
+    <header>
+        
+
+    
+        <nav class="nav">
+            <a href="#"><img src="images\as_I-removebg-preview.png" alt="Logo"></a>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Albums</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Shaped by Fire</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Sign up</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="search" placeholder="Search...">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </div>
+        </nav>
+    </header>
+
+    <div class="image-container">
+        <img src="images/as-i-lay-dying.webp" alt="Image">
+        <div class="text-overlay">
+          <h1>as i lay dying</h1>
+          <p>the old metalcore</p>
+        </div>
+      </div>
+
+    
+      <div class="container">
+        <div class="image-box">
+          <img src="images/As_I_Lay_Dying_--_May_2006.jpg" alt="Image">
+        </div>
+        <div class="text-box">
+          <p>As I Lay Dying is an American metalcore band from San Diego, California. 
+            Founded in 2000 by vocalist Tim Lambesis, the band's first full lineup (including Lambesis' Point of Recognition bandmate Jordan Mancino) was completed in 2001. 
+            The band has released seven albums, one split album, and two compilation albums.</p> <br>
+            <p>As I Lay Dying's fourth studio album An Ocean Between Us peaked at No. 8 on the Billboard 200, and No. 1 on the Top Rock chart. 
+                The band has performed at events such as Wacken Open Air, With Full Force, Soundwave Festival, Warped Tour, Bloodstock Open Air and Taste of Chaos. 
+                In 2007, As I Lay Dying won the "Ultimate Metal God" award from MTV2 at the first annual "All That Rocks" special; was named "Artist of the Year" at the San Diego Music Awards in 2005,[2] 2007[3] and 2008;[4] and was nominated for a 2008 Grammy Award for the song "Nothing Left".
+                [5] Their fifth studio album The Powerless Rise was written over a three-year period, and was released in May 2010 to widespread critical acclaim. 
+                Their last studio album before their hiatus, Awakened, was released on September 25, 2012.</p>
+        </div>
+      </div>
+
+      
+
+
+
+    
+
+        <h1 style="text-align: center;">ALBUMS</h1>
+        <div class="container-2">
+            <div class="boxes">
+              <img src="images\Shadows_are_security.jpg" alt="Image 1">
+              <h2>Shadows Are Security
+            </h2>
+              <p>Released	June 14, 2005 <br>
+                Recorded	January 2005</p>
+              <button>Buy now</button>
+            </div>
+            <div class="boxes">
+              <img src="images\a1194778378_10.jpg" alt="Image 2">
+              <h2>The Powerless Rise</h2>
+              <p>Released	May 7, 2010 <br>
+                Recorded	  February 2010</p>
+              <button>Buy now</button>
+            </div>
+            <div class="boxes">
+              <img src="images\r-14164297-1569513453-9591-jpeg-1589566459.jpg" alt="Image 3">
+              <h2>Shaped by Fire</h2>
+              <p>Recorded and Released <br>	September 20, 2019</p>
+              <button>Buy now</button>
+            </div>
+          </div>
+        
+     
+
+<h1 style="text-align: center; padding-top: 100px; padding-bottom: 50px;">TALK TO US</h1>
+
+<div class="commentbox">
+    
+    <form>
+     <div class="names"> <label for="name">Name</label> 
+      <input type="text" id="name" name="name" required><br>
+      <label for="comment">Comment</label>
+      <textarea id="comment" name="comment" rows="4" cols="50" placeholder="What's on your mind?" required></textarea><br>
+      <button type="button" onclick="addComment()">Submit</button>
+      <br>
+      <br>
+    </div>
+    </form>
+    <div id="comments"></div>
+  </div>
+  
+
+
+  
+  <div class="donatebox">
+    <h1 style="text-align: center; padding-top: 100px; padding-bottom: 50px;">DONATE</h1>
+    <form>
+        <div class="donations">
+      <label for="amount">Amount</label>
+      <input type="number" id="amount" name="amount" min="1" placeholder="$"required><br>
+      <button type="button" onclick="donate()">Donate</button>
+    </form>
+</div>
+    <button onclick="donate(10)">Donate $10</button>
+    <button onclick="donate(20)">Donate $20</button>
+    <button onclick="donate(50)">Donate $50</button>
+    <p>Total of  $<span id="total">0</span> has been donated to the band, thanks!</p>
+
+  </div>
+  
+
+
+  
+        
+
+
+
+           
+              
+<footer>
+    <footer class="footer">
+        <a href="#"><img src="images\as_I-removebg-preview.png" alt="Logo"></a>
+        <ul class="footer__list">
+            <li class="footer__list"><a href="#" class="footer__link">Tour Dates</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Request a show</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Tickets</a></li>
+        </ul>
+      
+        </footer>
+
+    
+
+    <div class="social-media-icons">
+        <a href="#" class="icon facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="icon youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+      
+
+   
+    
+</body>
+
+</html>
